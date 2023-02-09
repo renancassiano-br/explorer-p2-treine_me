@@ -4,3 +4,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.page {
+  width: 1000px;
+  margin: 65px auto 0;
+}
+
+header {
+  margin-bottom: 58px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+
+}
+
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+ul {
+  border: 1px solid red;
+  list-style: none;
+  display: flex;
+
+}
+
+ul li + li {
+  padding-left: 48px;
+}
+
+a {
+  text-decoration: none;
+}
