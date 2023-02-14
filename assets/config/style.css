@@ -8,6 +8,8 @@
 .page {
   width: 1000px;
   margin: 65px auto 0;
+  font-family: 'Open Sans', sans-serif;
+  /* color: #1F1534; */
 }
 
 header {
@@ -17,11 +19,29 @@ header {
   align-items: center;
 }
 
-nav {
+header, h1 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+  color: #1F1534;
+}
+
+h1 {
+  line-height: 56px;
+  font-size: 49px;
+  width: 489px;
+}
+h1 span {
+  color: #89C5CC;
+}
+
+h1 span, a:hover, footer a {
+  font-weight: bold;
+}
+/* nav {
   display: flex;
   text-align: center;
   justify-content: center;
-}
+} */
 ul {
   list-style: none;
   display: flex;
@@ -34,4 +54,15 @@ ul {
 
 a {
   text-decoration: none;
+  color: #1F1534;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+button {
+  text-transform: uppercase;
 }
