@@ -12,14 +12,14 @@
   /* color: #1F1534; */
 }
 
-header {
+nav {
   margin-bottom: 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header, h1 {
+nav, h1 {
   font-family: 'Mulish', sans-serif;
   font-weight: normal;
   color: #1F1534;
