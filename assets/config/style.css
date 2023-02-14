@@ -57,12 +57,24 @@ a {
   color: #1F1534;
 }
 
-p {
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section p {
   font-size: 14px;
   line-height: 28px;
   color: #7D7987;
+  margin: 40px 0;
 }
 
 button {
   text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  margin-top: 80px;
 }
