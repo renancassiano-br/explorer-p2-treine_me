@@ -5,9 +5,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 80%, rgba(227, 255, 248, 0.75) 100%);
+  min-height: 100vh;
+}
+
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding-top: 65px;
   font-family: 'Open Sans', sans-serif;
   /* color: #1F1534; */
 }
@@ -36,6 +42,7 @@ h1 span {
 
 h1 span, a:hover, footer a {
   font-weight: bold;
+  opacity: 1;
 }
 /* nav {
   display: flex;
@@ -48,6 +55,13 @@ ul {
   gap: 48px;
 }
 
+ul li a {
+  opacity: .75;
+}
+
+ul li a:hover {
+  opacity: 1;
+}
 /* ul li + li {
   padding-left: 48px;
 } */
@@ -62,7 +76,7 @@ a:hover{
   background: #479177;
   color: #F9F9F9;
   border-radius: 4px;
-  padding: 2px;
+  padding: 0 2px;
 }
 
 main {
@@ -98,10 +112,15 @@ button {
 
 button:hover {
   background: #479177;
-
 }
 
 footer {
   text-align: center;
   margin-top: 80px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
